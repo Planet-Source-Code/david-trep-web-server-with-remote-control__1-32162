@@ -1,0 +1,100 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\dreynold.000\Desktop\WebControl\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSWINSCK.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\documents and settings\dreynold.000\desktop\webcontrol\done.html=
+c:\documents and settings\dreynold.000\desktop\webcontrol\carrots.jpg=
+c:\documents and settings\dreynold.000\desktop\webcontrol\index.html=
+c:\documents and settings\dreynold.000\desktop\webcontrol\webserver.ini=
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\guestbook.ini=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\executable\Webserver.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\done.html=Yes
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\carrots.jpg=Yes
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\index.html=Yes
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\Webserver.ini=Yes
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\guestbook.ini=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\executable\Webserver.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\done.html=$(AppPath)
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\carrots.jpg=$(AppPath)
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\index.html=$(AppPath)
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\Webserver.ini=$(AppPath)
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\guestbook.ini=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\executable\Webserver.exe=No
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\done.html=No
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\carrots.jpg=No
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\index.html=No
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\Webserver.ini=No
+C:\Documents and Settings\dreynold.000\Desktop\WebControl\guestbook.ini=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Webserver
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\dreynold.000\Desktop\WebControl\Package
+ProjectFolder=C:\Documents and Settings\dreynold.000\Desktop\WebControl
+ServerSideCab=
+File1=C:\Documents and Settings\dreynold.000\Desktop\WebControl\Package\setup.exe
+File2=C:\Documents and Settings\dreynold.000\Desktop\WebControl\Package\Setup.Lst
+File3=C:\Documents and Settings\dreynold.000\Desktop\WebControl\Package\Webserver.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
